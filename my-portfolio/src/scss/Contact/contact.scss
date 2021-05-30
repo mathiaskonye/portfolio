@@ -1,0 +1,29 @@
+.contactcontainer {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    height: 79vh;
+    background-color: #e7e7de;
+}
+.contactBg {
+    padding: 20px;
+    background-color: #e7e7de;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+}
+.responsiveImage {
+    background-image: url(../../img/contact.svg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+}
+.contactH1 {
+    font-family: kaushan;
+    border-bottom: 2px solid #008891;
+    font-size: 28px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,57 @@
+
+.border-primary {
+    border: 2px solid #0f3057;
+}
+.bg-primary {
+    background-color: #008891;
+    color: white;
+}
+.color-white {
+    color: white;
+}
+.color-secondary {
+    color: #008891;
+}
+
+.column-height {
+    height: 300px;
+}
+.anchorLogo {
+    transition: transform .2s;
+}
+.anchorLogo:hover {
+    text-decoration: none;
+    transform: scale(1.1);
+}
+.bgColor {
+    background-image: url(../img/blur-portfolio.png);
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 50px #2c3539;;
+}
+
+.icons {
+    font-size: 30px;
+    color: #008891;
+    padding: 10px;
+}
+.flex-icons {
+    display: flex;
+}
+.marginTop {
+    margin-top: 50px;
+}
+
+
+
+@import "./components/wrapper.scss";
+@import "./components/button.scss";
+@import "./components/herobanner.scss";
+@import "./components/footer.scss";
+@import "./components/navbar.scss";
+@import "./mediaquiery/mediaquiery.scss";
+@import "./MyWork/mywork.scss";
+@import "./Home/home.scss";
+@import "./Contact/contact.scss";
+@import "./About/about.scss";
+@import "global.scss";

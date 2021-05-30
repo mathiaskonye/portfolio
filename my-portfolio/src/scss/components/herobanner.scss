@@ -1,0 +1,19 @@
+.headerHomeImage {
+    background-image: url(../../img/placeholder-profile-sq.jpg);
+    background-size: 100% 100%;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 auto;
+    border: 1px solid #0f3057;
+  }
+  .herobanner {
+    background-image: url(../../img/hero-image.jpg);
+    background-size: cover;
+    height: 79vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

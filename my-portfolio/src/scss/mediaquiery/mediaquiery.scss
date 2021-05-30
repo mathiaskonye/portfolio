@@ -1,0 +1,39 @@
+@keyframes transition {
+    from {
+        opacity: 0;
+        transform: rotateX(-50deg);
+    } to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+@media only screen and (max-width: 800px) {
+    .bgAbout {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .contactcontainer {
+        height: auto;
+    }
+    .mywork-image {
+        height: 400px;
+    }
+    .container-mywork {
+        height: auto;
+    }
+
+}
+@media only screen and (max-width: 600px) {
+    .wrapper {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .responsiveImage {
+        height: 300px;
+        width: 300px;
+    }
+    .footerText {
+        font-family: kaushan;
+        font-size: 18px;
+    }
+}

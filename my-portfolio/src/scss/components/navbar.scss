@@ -1,0 +1,33 @@
+.brand {
+    border-bottom: 2px solid #008891;
+    letter-spacing: 1px;
+    color: #0f3057;
+    display: flex;
+    align-content: center;
+    font-family: kaushan;
+    font-size: 29px;
+    margin-top: 3px;
+}
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.navtext {
+    padding-top: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #0f3057;
+    font-size:16px;
+    margin: 8px;
+    white-space: nowrap;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    background-color: #e7e7de;
+    border-bottom: 0.1px solid #e7e7de;
+}
